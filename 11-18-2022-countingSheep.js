@@ -35,3 +35,12 @@
 // For every true, increase value counter by one
 // Return the value Counter
 
+function countSheeps(arrayOfSheep) {
+    let sheepCounter = 0
+    for(i=0; i < arrayOfSheep.length; i++){
+        if (arrayOfSheep[i] == true){
+            sheepCounter += 1
+        }
+    }
+    return sheepCounter
+  }
