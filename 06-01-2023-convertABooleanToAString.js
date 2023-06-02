@@ -30,3 +30,9 @@ function booleanToString(b){
         
     }
   }
+
+  //it works, but there's a method that makes this easier.
+
+//   function booleanToString(b){
+//     return b.toString();
+//   }
