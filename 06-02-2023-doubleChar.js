@@ -24,12 +24,20 @@
 // 4.) 
 
 
-function doubleChar(str) {
+// function doubleChar(str) {
+//     let newString = ""
+//     for (let i = 0; i < str.length; i++) {
+//         newString += str[i]
+//         newString += str[i]  //Theres a better way to do this, I'm sure.
+        
+//     }
+//     return newString
+//   }
+
+  function doubleChar(str) {
     let newString = ""
     for (let i = 0; i < str.length; i++) {
-        newString += str[i]
-        newString += str[i]  //Theres a better way to do this, I'm sure.
-        
+        newString += str[i] + str[i]  //There we go.   
     }
     return newString
   }
